@@ -88,7 +88,7 @@ export const registerUser = async (req, res) => {
       email: normalizedEmail,
       phone: phoneDigits,
       password: hashedPassword,
-      role: "viewer",
+      role: "admin",
     });
 
     const org = await OrganizationModel.create({

@@ -24,10 +24,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    /** App account: watch-only vs can upload when using editor APIs. */
+    /** App account: org creator = admin; invited users typically viewer/editor. */
     role: {
       type: String,
-      enum: ["viewer", "editor"],
+      enum: ["viewer", "editor", "admin"],
       default: "viewer",
     },
   },
