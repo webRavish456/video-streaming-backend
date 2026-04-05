@@ -2,7 +2,6 @@
 
 **Express 5** HTTP API under **`/api`**, plus **Socket.io** on the same Node **http** server. Data in **MongoDB** (Mongoose); org video uploads use **Cloudinary** (Multer).
 
-**Frontend:** [../frontend/README.md](../frontend/README.md)
 
 ---
 
@@ -436,7 +435,3 @@ Copy from **`env.example`**:
 
 ---
 
-## Related
-
-- [Repository root README](../README.md)  
-- [Express](https://expressjs.com/) · [Mongoose](https://mongoosejs.com/docs/)
