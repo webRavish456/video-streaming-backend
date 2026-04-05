@@ -2,7 +2,7 @@
 
 **Express 5** HTTP API (`/api`) plus **Socket.io** on the same Node **http** server. Persists data in **MongoDB** (Mongoose); org video uploads go to **Cloudinary** via Multer storage.
 
-**Frontend docs:** [../frontend/README.md](../frontend/README.md)
+
 
 ---
 
@@ -134,8 +134,3 @@ Upload/replace routes use multipart middleware and Cloudinary storage; org mutat
 
 ---
 
-## Related docs
-
-- [Repository root README](../README.md) — monorepo overview  
-- [Express documentation](https://expressjs.com/)  
-- [Mongoose documentation](https://mongoosejs.com/docs/)
